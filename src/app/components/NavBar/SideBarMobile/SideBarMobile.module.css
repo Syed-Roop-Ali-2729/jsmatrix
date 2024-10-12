@@ -1,0 +1,98 @@
+/* ///////////////////////////// */
+
+.sideBar {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.7);
+  display: flex;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-name: sideBarIn;
+  /* display: none; */
+}
+
+.sideBarBlur {
+  width: 20%;
+  /* outline: none; */
+}
+
+.cross {
+  color: #ddd;
+  font-size: 2rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+/* ////////////////////////// */
+
+.sideBarContent {
+  width: 80%;
+  background-color: #eee;
+  /* padding: 0.6rem; */
+}
+
+.sideBarSearchContainer {
+  width: 90%;
+  margin: 3.6rem auto;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #c36d38;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.sideBarSearch {
+  width: 83%;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  outline: none;
+}
+
+.sideBarSearch:focus {
+  box-shadow: inset rgba(255, 111, 0, 0.2) 0px 1px 3px;
+}
+
+.searchIcon {
+  margin: auto;
+  /* width: auto; */
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4rem */
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.navList li {
+  padding: 1.8rem;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.4s;
+}
+
+.navList li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.navList li:hover {
+  background-color: #ddd;
+}
+
+/* ////////////////////////////// */
+@keyframes sideBarIn {
+  0% {
+    right: -100%;
+    /* right: 0%; */
+  }
+  100% {
+    right: 0%;
+  }
+}

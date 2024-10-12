@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+  padding: 1.2rem;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoHeading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #444;
+  cursor: pointer;
+}
+
+.logoImg {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.desktopBar {
+  display: none;
+}
+
+@media only screen and (min-width: 27em) {
+}
+
+@media only screen and (min-width: 650px) {
+  .container {
+    padding: 1.6rem;
+  }
+
+  .logoHeading {
+    font-size: 2.4rem;
+  }
+
+  .logoImg {
+    width: 3.6rem;
+  }
+
+  .menuBox {
+    display: none;
+  }
+
+  .desktopBar {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .container {
+    padding: 1.8rem;
+  }
+
+  .logoHeading {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 2rem 2.4rem;
+  }
+}
