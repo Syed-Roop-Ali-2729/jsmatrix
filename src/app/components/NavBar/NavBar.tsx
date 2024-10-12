@@ -32,7 +32,7 @@ export default function NavBar() {
 
         {showSideBar && (
           <SideBarMobile
-            showSideBar={showSideBar}
+            // showSideBar={showSideBar}
             setShowSideBar={setShowSideBar}
           />
         )}
