@@ -2,7 +2,7 @@ import style from "./SideBarMobile.module.css";
 import Link from "next/link";
 import SearchIcon from "../../icons/SearchIcon";
 
-export default function SideBarMobile({ setShowSideBar }) {
+export default function SideBarMobile({ setShowSideBar }: any) {
   const crossButton = function () {
     setShowSideBar(false);
   };
