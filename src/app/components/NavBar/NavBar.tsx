@@ -27,7 +27,7 @@ export default function NavBar() {
 
       <div className={style.navLinkBox}>
         <div className={style.menuBox}>
-          <Menu width={"2.8rem"} color={"#333"} onClick={showSideBarFunc} />
+          <Menu width={"2.8rem"} color={"#444"} onClick={showSideBarFunc} />
         </div>
 
         {showSideBar && (
