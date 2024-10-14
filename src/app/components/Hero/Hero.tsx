@@ -3,10 +3,12 @@ import style from "./Hero.module.css";
 export default function Hero() {
   return (
     <div className={style.container}>
-      <h1 className={style.heroHeading}>
-        <strong>JS Matrix</strong> <br />
-        This is where Code meet the creativity...
-      </h1>
+      <div className={style.heroHeading}>
+        <h1 className={style.title}>JS Matrix</h1>
+        <h2 className={style.tagLine}>
+          This is where Code meet the creativity...
+        </h2>
+      </div>
     </div>
   );
 }
