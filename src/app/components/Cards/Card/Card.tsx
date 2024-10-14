@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import style from "./Card.module.css";
 
-export default function Card({ data, i }) {
+export default function Card({ data, i }: any) {
   return (
     <>
       <div className={style.card}>
