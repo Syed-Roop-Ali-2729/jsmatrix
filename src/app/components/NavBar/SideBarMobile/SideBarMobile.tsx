@@ -1,17 +1,13 @@
 import style from "./SideBarMobile.module.css";
 import Link from "next/link";
-import SearchIcon from "../../icons/SearchIcon";
+import { FaSearch } from "react-icons/fa";
 
-export default function SideBarMobile({ setShowSideBar }: any) {
-  const crossButton = function () {
-    setShowSideBar(false);
-  };
-
+export default function SideBarMobile({ showSideBar, setShowSideBar }) {
   return (
     <>
-      <div className={style.sideBar}>
+      <div className={`${style.sideBar} ${showSideBar ? style.sideBarIn : ""}`}>
         <div className={style.sideBarBlur}>
-          <button className={style.cross} onClick={crossButton}>
+          <button className={style.cross} onClick={() => setShowSideBar(false)}>
             X
           </button>
         </div>
@@ -24,7 +20,7 @@ export default function SideBarMobile({ setShowSideBar }: any) {
               placeholder="Search..."
             />
             <div className={style.searchIcon}>
-              <SearchIcon width={"2rem"} color={"white"} />
+              <FaSearch className="text-white text-3xl" />
             </div>
           </div>
           {/* ///////////////////////////////// */}

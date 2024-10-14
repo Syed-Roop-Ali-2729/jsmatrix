@@ -6,7 +6,7 @@ export default function Hero() {
       <div className={style.heroHeading}>
         <h1 className={style.title}>JS Matrix</h1>
         <h2 className={style.tagLine}>
-          This is where Code meet the creativity...
+          This is where Code meets the creativity...
         </h2>
       </div>
     </div>

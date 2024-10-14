@@ -8,16 +8,20 @@
   top: 0;
   background-color: rgba(51, 51, 51, 0.7);
   display: flex;
-  animation-duration: 0.5s;
-  animation-direction: normal;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  animation-name: sideBarIn;
-  /* display: none; */
+  transition: all 0.2s;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.sideBar.sideBarIn {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
 }
 
 .sideBarBlur {
   width: 20%;
-  /* outline: none; */
 }
 
 .cross {
@@ -32,7 +36,6 @@
 .sideBarContent {
   width: 80%;
   background-color: #eee;
-  /* padding: 0.6rem; */
 }
 
 .sideBarSearchContainer {
@@ -40,10 +43,10 @@
   margin: 3.6rem auto;
   border-radius: 1px;
   overflow: hidden;
-  background-color: #c36d38;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: flex;
   align-items: center;
+  background-color: #fea56e;
 }
 
 .sideBarSearch {
@@ -59,13 +62,11 @@
 
 .searchIcon {
   margin: auto;
-  /* width: auto; */
 }
 
 .navList {
   display: flex;
   flex-direction: column;
-  /* gap: 4rem */
   font-size: 1.3npm i react-iconsclsrem;
   font-weight: 600;
   color: #666;

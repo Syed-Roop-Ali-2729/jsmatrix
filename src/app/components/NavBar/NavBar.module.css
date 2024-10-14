@@ -28,14 +28,35 @@
   cursor: pointer;
 }
 
-.desktopBar {
+.navBarDesktop {
   display: none;
+}
+
+/* ////////////////////////////// */
+
+@media only screen and (min-width: 49.8em) {
+  .btnMenu {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 49.8em) {
+  .navBarDesktop {
+    display: block;
+  }
+}
+
+/* ///////////////////////////// */
+@media only screen and (min-width: 49.81em) {
+  .btnMenu {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 27em) {
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 40.625em) {
   .container {
     padding: 1.6rem;
   }
@@ -48,16 +69,12 @@
     width: 3.6rem;
   }
 
-  .menuBox {
-    display: none;
-  }
-
   .desktopBar {
     display: block;
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 53.125em) {
   .container {
     padding: 1.8rem;
   }
@@ -67,7 +84,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64em) {
   .container {
     padding: 2rem 2.4rem;
   }

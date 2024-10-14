@@ -1,5 +1,6 @@
 "use client";
 
+import { AiOutlineMenu } from "react-icons/ai";
 import Menu from "../icons/menu";
 import style from "./NavBar.module.css";
 import NavBarDesktop from "./NavBarDesktop/NavBarDesktop";
@@ -25,18 +26,17 @@ export default function NavBar() {
         <h1 className={style.logoHeading}>Js Matrix</h1>
       </div>
 
-      <div className={style.navLinkBox}>
-        <div className={style.menuBox}>
-          <Menu width={"2.8rem"} color={"#444"} onClick={showSideBarFunc} />
-        </div>
-
-        {showSideBar && (
+      <div>
+        <button className={style.btnMenu} onClick={() => setShowSideBar(true)}>
+          <AiOutlineMenu className="text-4xl" />
+        </button>
+        <div>
           <SideBarMobile
-            // showSideBar={showSideBar}
+            showSideBar={showSideBar}
             setShowSideBar={setShowSideBar}
           />
-        )}
-        <div className={style.desktopBar}>
+        </div>
+        <div className={style.navBarDesktop}>
           <NavBarDesktop />
         </div>
       </div>
