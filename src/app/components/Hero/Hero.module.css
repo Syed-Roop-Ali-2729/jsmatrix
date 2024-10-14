@@ -38,11 +38,34 @@
   .container {
     height: 60vh;
   }
+
+  .heroHeading {
+    padding: 3.6rem;
+  }
+  .title {
+    font-size: 4.4rem;
+  }
+
+  .tagLine {
+    font-size: 2.4rem;
+  }
 }
 
 @media only screen and (min-width: 850px) {
   .container {
     height: 70vh;
+  }
+
+  .heroHeading {
+    padding: 4.8rem;
+  }
+
+  .title {
+    font-size: 5.6rem;
+  }
+
+  .tagLine {
+    font-size: 3.6rem;
   }
 }
 
@@ -50,14 +73,7 @@
   .container {
     height: 80vh;
   }
-
   .heroHeading {
-    font-size: 4.8rem;
-    padding: 0rem 6.4rem;
-  }
-
-  .heroHeading strong {
-    font-size: 6.4rem;
-    margin-bottom: 0;
+    padding: 6.4rem;
   }
 }
