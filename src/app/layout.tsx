@@ -1,12 +1,22 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import Header from "./components/Header/Header";
-import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
+import "@/app/_styles/globals.css";
+import Header from "@/app/components/Header/Header";
+import Footer from "@/app/components/Footer/Footer";
 
-export const metadata: Metadata = {
-  title: "Js Matrix",
-  description: "A blog website of javascript",
+type metadata = {
+  title: {
+    template: string;
+    default: string;
+  };
+  description: string;
+};
+
+export const metadata = {
+  title: {
+    template: "%s | Js Matrix",
+    default: "Welcome to Js Matrix",
+  },
+  description:
+    "A blog website of JavaScript that containes all the information your want to know about JavaScript",
 };
 
 export default function RootLayout({
@@ -17,10 +27,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header>
-          <NavBar />
-        </Header>
-        {children}
+        <Header />
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

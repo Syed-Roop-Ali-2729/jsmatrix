@@ -5,7 +5,7 @@ import style from "./NavBar.module.css";
 import NavBarDesktop from "./NavBarDesktop/NavBarDesktop";
 import SideBarMobile from "./SideBarMobile/SideBarMobile";
 import Image from "next/image";
-import Logo from "./logo.webp";
+import Logo from "@/app/public/logo.webp";
 
 import { useState } from "react";
 

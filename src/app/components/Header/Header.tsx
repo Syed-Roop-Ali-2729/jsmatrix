@@ -1,5 +1,10 @@
-import style from "./Header.module.css";
+import NavBar from "@/app/components/NavBar/NavBar";
+import style from "@/app/components/Header/Header.module.css";
 
-export default function Header({ children }: any) {
-  return <header className={style.mainHeader}> {children} </header>;
+export default function Header() {
+  return (
+    <header className={style.mainHeader}>
+      <NavBar />
+    </header>
+  );
 }

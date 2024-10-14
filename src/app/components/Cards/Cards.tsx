@@ -1,6 +1,6 @@
 import style from "./Cards.module.css";
 import Card from "./Card/Card";
-import { data } from "@/app/data";
+import { data } from "@/app/_lib/data";
 
 export default function Cards() {
   return (
