@@ -1,7 +1,6 @@
 "use client";
 
 import { AiOutlineMenu } from "react-icons/ai";
-import Menu from "../icons/menu";
 import style from "./NavBar.module.css";
 import NavBarDesktop from "./NavBarDesktop/NavBarDesktop";
 import SideBarMobile from "./SideBarMobile/SideBarMobile";

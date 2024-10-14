@@ -2,7 +2,7 @@ import style from "./SideBarMobile.module.css";
 import Link from "next/link";
 import { FaSearch } from "react-icons/fa";
 
-export default function SideBarMobile({ showSideBar, setShowSideBar }) {
+export default function SideBarMobile({ showSideBar, setShowSideBar }: any) {
   return (
     <>
       <div className={`${style.sideBar} ${showSideBar ? style.sideBarIn : ""}`}>
