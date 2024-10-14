@@ -1,9 +1,9 @@
-import cardImg1 from "@/app/public/cardImgs/cardImg1.jpg";
-import cardImg2 from "@/app/public/cardImgs/cardImg2.jpg";
-import cardImg3 from "@/app/public/cardImgs/cardImg3.jpg";
-import cardImg4 from "@/app/public/cardImgs/cardImg4.jpg";
-import cardImg5 from "@/app/public/cardImgs/cardImg5.jpg";
-import cardImg6 from "@/app/public/cardImgs/cardImg6.jpg";
+import cardImg1 from "/public/cardImgs/cardImg1.jpg";
+import cardImg2 from "/public/cardImgs/cardImg2.jpg";
+import cardImg3 from "/public/cardImgs/cardImg3.jpg";
+import cardImg4 from "/public/cardImgs/cardImg4.jpg";
+import cardImg5 from "/public/cardImgs/cardImg5.jpg";
+import cardImg6 from "/public/cardImgs/cardImg6.jpg";
 
 export const data = [
   {
