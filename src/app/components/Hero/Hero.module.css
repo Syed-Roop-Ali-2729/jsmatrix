@@ -1,5 +1,5 @@
 .container {
-  background-image: url("./hero.jpg");
+  background-image: url("../../public/hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   height: 100%;
   padding: 2rem;
   background-color: rgba(18, 18, 18, 0.7);
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
 }
 

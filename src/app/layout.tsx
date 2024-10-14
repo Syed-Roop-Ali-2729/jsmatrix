@@ -1,22 +1,21 @@
 import "@/app/_styles/globals.css";
 import Header from "@/app/components/Header/Header";
 import Footer from "@/app/components/Footer/Footer";
+import { Roboto } from "next/font/google";
 
-type metadata = {
-  title: {
-    template: string;
-    default: string;
-  };
-  description: string;
-};
+const roboto = Roboto({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "300", "400", "500", "700", "900"],
+});
 
 export const metadata = {
   title: {
-    template: "%s | Js Matrix",
+    template: "%s | Js Matirx",
     default: "Welcome to Js Matrix",
   },
   description:
-    "A blog website of JavaScript that containes all the information your want to know about JavaScript",
+    "Js matrix is a blog website that give you knowledge of js you need to know",
 };
 
 export default function RootLayout({
@@ -26,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={roboto.className}>
         <Header />
         <main>{children}</main>
         <Footer />

@@ -1,8 +1,13 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import style from "./Card.module.css";
 
-export default function Card({ data, i }: any) {
+type data = {
+  title: string;
+  description: string;
+  img: StaticImageData;
+};
+export default function Card({ data }: any) {
   return (
     <>
       <div className={style.card}>
