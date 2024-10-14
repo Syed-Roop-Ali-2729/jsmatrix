@@ -4,10 +4,13 @@ import { data } from "@/app/data";
 
 export default function Cards() {
   return (
-    <div className={style.container}>
-      {data.map((data, i) => (
-        <Card data={data} key={data.title} i={i} />
-      ))}
-    </div>
+    <>
+      <h1 className={style.heading}>our blogs</h1>
+      <div className={style.container}>
+        {data.map((data, i) => (
+          <Card data={data} key={data.title} i={i} />
+        ))}
+      </div>
+    </>
   );
 }

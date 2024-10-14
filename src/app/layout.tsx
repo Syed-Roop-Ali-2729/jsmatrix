@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./components/Header/Header";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Js Matrix",
@@ -13,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header>
+          <NavBar />
+        </Header>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

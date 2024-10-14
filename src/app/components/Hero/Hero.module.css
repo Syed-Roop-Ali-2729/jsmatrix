@@ -1,0 +1,31 @@
+.container {
+  background-image: url("./hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 3.6rem;
+}
+
+.heroHeading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  font-size: 2rem;
+  padding: 2rem;
+  color: #eee;
+  background-color: rgba(18, 18, 18, 0.7);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.heroHeading strong {
+  display: inline-block;
+  color: yellow;
+  font-size: 3.6rem;
+  /* margin-bottom: 0.8rem; */
+}
