@@ -98,7 +98,7 @@ export default function Footer() {
             <li>
               <MdKeyboardDoubleArrowRight className="text-3xl" />
               <Link href="#" className={style.links}>
-                What&apos;s Next
+                Whats Next
               </Link>
             </li>
             <li>
