@@ -1,7 +1,7 @@
 "use client";
-
 import { AiOutlineMenu } from "react-icons/ai";
 import style from "./NavBar.module.css";
+import Link from "next/link";
 import NavBarDesktop from "./NavBarDesktop/NavBarDesktop";
 import SideBarMobile from "./SideBarMobile/SideBarMobile";
 import Image from "next/image";
@@ -20,7 +20,9 @@ export default function NavBar() {
     <nav className={style.container}>
       <div className={style.navLogo}>
         <div className={style.logoImg}>
-          <Image src={Logo} width={36} height={36} alt="logo"></Image>
+          <Link href="/">
+            <Image src={Logo} width={36} height={36} alt="logo"></Image>
+          </Link>
         </div>
         <h1 className={style.logoHeading}>Js Matrix</h1>
       </div>
