@@ -6,7 +6,7 @@ export default function NavBarDesktop() {
     <>
       <ul className={style.navList}>
         <li>
-          <Link href={"#"} className={style.navLink}>
+          <Link href={"/"} className={style.navLink}>
             Home
           </Link>
         </li>

@@ -3,19 +3,19 @@ import Header from "@/app/components/Header/Header";
 import Footer from "@/app/components/Footer/Footer";
 import { Roboto } from "next/font/google";
 
-const roboto = Roboto({
+const lato = Roboto({
   subsets: ["latin"],
   display: "swap",
-  weight: ["100", "300", "400", "500", "700", "900"],
+  weight: ["100", "300", "400", "700", "900"],
 });
 
 export const metadata = {
   title: {
-    template: "%s | Js Matirx",
+    template: "%s | Js Marix",
     default: "Welcome to Js Matrix",
   },
   description:
-    "Js matrix is a blog website that give you knowledge of js you need to know",
+    "Js Matirx is a blog webstire that gives the knowledge about Java Script you need to know for web development",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={lato.className}>
         <Header />
         <main>{children}</main>
         <Footer />

@@ -26,7 +26,7 @@ export default function SideBarMobile({ showSideBar, setShowSideBar }: any) {
           {/* ///////////////////////////////// */}
           <ul className={style.navList}>
             <li>
-              <Link href={"#"}>Home</Link>
+              <Link href={"/"}>Home</Link>
             </li>
             <li>
               <Link href={"#"}>Latest</Link>

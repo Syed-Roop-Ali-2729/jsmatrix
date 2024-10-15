@@ -10,12 +10,16 @@ export const data = [
     title: "Code You Need",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg1,
   },
   {
     title: "Future of Js",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg2,
   },
 
@@ -23,6 +27,8 @@ export const data = [
     title: "What study next?",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg3,
   },
 
@@ -30,6 +36,8 @@ export const data = [
     title: "Code in Mobile",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg4,
   },
 
@@ -37,6 +45,8 @@ export const data = [
     title: "Make Code Your Habit",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg5,
   },
 
@@ -44,18 +54,24 @@ export const data = [
     title: "Best Laptop For Code",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg6,
   },
   {
     title: "Code You Need",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg1,
   },
   {
     title: "Future of Js",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg2,
   },
 
@@ -63,6 +79,8 @@ export const data = [
     title: "What study next?",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg3,
   },
 
@@ -70,6 +88,8 @@ export const data = [
     title: "Code in Mobile",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg4,
   },
 
@@ -77,6 +97,8 @@ export const data = [
     title: "Make Code Your Habit",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg5,
   },
 
@@ -84,6 +106,9 @@ export const data = [
     title: "Best Laptop For Code",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
+    article:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic odio error voluptatum omnis, sequi dolor excepturi labore velit cumque maxime ducimus alias quis tempora itaque modi ipsa sit? Dicta!",
     img: cardImg6,
   },
 ];
+console.log(data);

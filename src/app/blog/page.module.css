@@ -1,0 +1,40 @@
+.container {
+  max-width: 130rem;
+  margin: auto;
+  /* background-color: rgb(171, 162, 162); */
+  padding: 1.2rem;
+}
+
+.articleBox {
+  width: 90%;
+  margin: auto;
+}
+
+.imgBox {
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  margin-bottom: 3.6rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.article {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #444;
+  font-weight: 300;
+}
+
+.article::first-line {
+  font-size: 2rem;
+  color: #222;
+  font-weight: 400;
+}
