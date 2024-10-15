@@ -19,7 +19,7 @@ export default function Page({ searchParams }: any) {
           <h1>{data[i].title}</h1>
         </div>
         <article className={style.article}>{data[i].article} </article>
-        <div className="flex items-center justify-between border-b-2 mb-12 pb-12  ">
+        <div className="flex items-center justify-between    ">
           <p className="text-2xl text-gray-600 capitalize">
             {`Author: ${data[i].author}`}{" "}
           </p>
