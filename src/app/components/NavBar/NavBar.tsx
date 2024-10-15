@@ -12,10 +12,6 @@ import { useState } from "react";
 export default function NavBar() {
   const [showSideBar, setShowSideBar] = useState(false);
 
-  const showSideBarFunc = function () {
-    setShowSideBar(true);
-  };
-
   return (
     <nav className={style.container}>
       <div className={style.navLogo}>
@@ -24,7 +20,9 @@ export default function NavBar() {
             <Image src={Logo} width={36} height={36} alt="logo"></Image>
           </Link>
         </div>
-        <h1 className={style.logoHeading}>Js Matrix</h1>
+        <Link href="/">
+          <h1 className={style.logoHeading}>Js Matrix</h1>
+        </Link>
       </div>
 
       <div>

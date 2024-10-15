@@ -18,6 +18,7 @@
 .navLink:hover,
 .navLink:active {
   background-color: #ddd;
+
   border-radius: 4px;
 }
 

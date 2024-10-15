@@ -26,22 +26,34 @@ export default function SideBarMobile({ showSideBar, setShowSideBar }: any) {
           {/* ///////////////////////////////// */}
           <ul className={style.navList}>
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link className="inline-block w-full p-5" href={"/"}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link href={"#"}>Latest</Link>
+              <Link className="inline-block w-full p-5" href={"#"}>
+                Latest
+              </Link>
             </li>
             <li>
-              <Link href={"#"}>About Us</Link>
+              <Link className="inline-block w-full p-5" href={"#"}>
+                About Us
+              </Link>
             </li>
             <li>
-              <Link href={"#"}>Contact Us</Link>
+              <Link className="inline-block w-full p-5" href={"#"}>
+                Contact Us
+              </Link>
             </li>
             <li>
-              <Link href={"#"}>News Letter</Link>
+              <Link className="inline-block w-full p-5" href={"#"}>
+                News Letter
+              </Link>
             </li>
             <li>
-              <Link href={"#"}>Login</Link>
+              <Link className="inline-block w-full p-5" href={"#"}>
+                Login
+              </Link>
             </li>
           </ul>
         </div>

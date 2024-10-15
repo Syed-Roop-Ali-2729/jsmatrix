@@ -27,17 +27,17 @@ export default function Page({ searchParams }: any) {
         </div>
       </div>
       <div className="xl m-auto ">
-        <h2 className="text-4xl capitalize mb-10 font-bold">
+        <h2 className="text-4xl capitalize mb-10 lg:mb-20 ml-2  font-bold">
           find this article help..?
         </h2>
-        <div className="bg-gray-200 boxs shadow-sm p-4 rounded-xl">
+        <div className="bg-gray-200 boxs shadow-sm p-6 lg:p-8 mb-10 lg:mb-40 rounded-xl">
           <h3 className="capitalize py-4 text-3xl text-gray-700 mb-4 font-semibold">
             give feedback
           </h3>
           <textarea
             placeholder="Write Something"
             rows={10}
-            className="w-full p-4 text-2xl rounded-xl mb-4"
+            className="w-full p-4 text-2xl rounded-xl mb-5"
           ></textarea>
           <div className="flex items-center justify-end">
             <button className="bg-gray-800 text-white px-6 py-4 rounded-md font-medium mr-2">
